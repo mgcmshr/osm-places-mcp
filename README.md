@@ -17,3 +17,12 @@ npm start
 ```
 
 Uses stdio transport.
+
+## Structure
+- `src/clients/*`: upstream API clients (Nominatim, Overpass)
+- `src/domain/*`: mapping + distance logic
+- `src/usecases/*`: application use cases
+- `src/validation/*`: input validation
+- `src/errors/*`: typed app errors
+- `src/transport/*`: MCP tool definitions
+- `src/index.mjs`: composition/wiring
