@@ -1,0 +1,14 @@
+{
+  "name": "osm-places-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Simple MCP server for Nominatim + Overpass place search",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "node src/index.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0"
+  }
+}
